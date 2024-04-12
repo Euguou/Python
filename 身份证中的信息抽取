@@ -1,0 +1,8 @@
+num=input();
+lnum=list(num);
+year=str(lnum[6])+str(lnum[7])+str(lnum[8])+str(lnum[9]);
+month=str(lnum[10])+str(lnum[11])
+day=str(lnum[12])+str(lnum[13])
+print('你出生于{}年{}月{}日'.format(year,month,day));
+if(int(lnum[16])%2!=0) : print('你的性别为男');
+else :print('你的性别为女');
