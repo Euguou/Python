@@ -1,0 +1,12 @@
+s=input();
+ls=list(s);
+letter=0;digit=0;other=0;
+for i in range (0,len(ls)):
+    if(ls[i].isalpha()==1): letter+=1;
+    if(ls[i].isdigit()==1): digit+=1;
+other=len(ls)-letter-digit;
+print('letter = {}, digit = {}, other = {}'.format(letter,digit,other));
+print('输入的字符个数为：{} 个'.format(len(ls)));
+print('字母个数为：{} 个'.format(letter));
+print('数字个数为：{} 个'.format(digit));
+print('其它字符数为：{} 个'.format(other));
