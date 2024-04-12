@@ -1,0 +1,6 @@
+s='人生苦短我用python'
+a=list(s);
+n=int(input());
+for i in range (0,n):
+    print(a[i],end=', ');
+    
