@@ -1,0 +1,5 @@
+s=input();
+ls1=list(s);
+ls2=ls1[::-1];
+if(ls2==ls1):print ('True');
+else : print('False');
