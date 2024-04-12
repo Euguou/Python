@@ -1,0 +1,3 @@
+phone=input();
+phone=phone[:3]+"****"+phone[7:];
+print(phone);
