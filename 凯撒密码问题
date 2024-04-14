@@ -1,0 +1,15 @@
+s=input();
+ls=list(s);
+for i in range (0,len(ls)):
+    if(ls[i].isalpha()==1):
+        a=ord(ls[i]);
+        if(ord('A')<=ord(ls[i])<=ord('Z')):
+            a=ord(ls[i])+3;
+            if(a>ord('Z')):
+                a=a-26;
+        if(ord('a')<=ord(ls[i])<=ord('z')):
+            a=ord(ls[i])+3;
+            if(a>ord('z')):
+                a=a-26;
+        ls[i]=chr(a);
+    print(ls[i],end='')
