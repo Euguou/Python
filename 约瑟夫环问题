@@ -1,0 +1,18 @@
+def josephus(n,k):
+    List = list(range(1,n+1))
+    index = 0
+    while List:
+        temp = List.pop(0)
+        index += 1
+        if index == k:
+            index = 0
+            continue
+        List.append(temp)
+        if len(List)==1:
+            print(List)
+            break;
+n,k=map(int,input().split(','));
+if(k<2 or n<k):
+    print('Data Error!');
+else:
+    josephus(n,k);
