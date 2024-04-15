@@ -1,0 +1,12 @@
+s=input();
+ls=list(s);
+a=0;
+for i in range(0,len(ls)):
+    if(ls[i]=='L'): a+=1;
+    elif(ls[i]=='R'): a-=1;
+    elif(ls[i]=='B'): a+=2;
+n=a%4;
+if(n==0): print('E');
+elif(n==1): print('N');
+elif(n==2): print('W');
+elif(n==3): print('S');
