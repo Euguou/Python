@@ -1,0 +1,6 @@
+n=eval(input());
+summ=0;x=0
+for i in range (0,len(n)):
+    n[i]=int(n[i]);
+    summ+=n[i];x+=1;
+print(summ/x);
