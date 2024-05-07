@@ -1,0 +1,4 @@
+n=eval(input());
+for i in range (0,len(n)):
+    if(n[i]%3==0 and n[i]%5==0 and n[i]%10!=0):print(n[i],end=',');
+        
