@@ -1,0 +1,6 @@
+n=eval(input());
+summ=0;
+for i in range (0,len(n)):
+    if(i%2!=0):
+        summ+=n[i];
+print(summ);
