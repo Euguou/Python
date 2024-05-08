@@ -1,0 +1,4 @@
+n=eval(input());
+for i in range(0,len(n)):
+    if(n[i]>0 and n[i]<1000):
+        if(n[i]%3==0):print(n[i]);
