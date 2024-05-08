@@ -1,0 +1,3 @@
+n=eval(input());
+n.sort();
+print(n);
