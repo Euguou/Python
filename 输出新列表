@@ -1,0 +1,4 @@
+n=eval(input());
+for i in range (1,len(n)):
+    n[i]=n[i]+n[i-1];
+print(n);
