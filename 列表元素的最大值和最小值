@@ -1,0 +1,6 @@
+s=input();
+ls=s.split(',');
+for i in range (0,len(ls)):
+    ls[i]=int(ls[i])
+print('最大值={},最小值={}'.format(max(ls),min(ls)))
+
