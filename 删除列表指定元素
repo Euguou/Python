@@ -1,0 +1,10 @@
+key=False;#这个变量用于确定列表中有无指定元素
+s=eval(input());
+n=int(input());
+for i in range(0,len(s)):
+    if(s[i]==n):
+        key=True;
+if(key==True):
+    while n in s:
+        s.remove(n);
+print(s);
