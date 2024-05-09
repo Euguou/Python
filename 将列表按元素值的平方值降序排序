@@ -1,0 +1,4 @@
+a=eval(input());
+a.sort(key=abs,reverse=True)
+print(a);
+#和第18题一样，绝对值大的平方大
