@@ -1,0 +1,3 @@
+a=eval(input());
+a.sort(key=abs,reverse=True)
+print(a);
