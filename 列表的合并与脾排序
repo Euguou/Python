@@ -1,0 +1,8 @@
+a=input();
+b=input();
+a=a.split();b=b.split();
+c=a+b;
+for i in range(0,len(c)):
+    c[i]=int(c[i]);
+c.sort(reverse=True);
+print(c);
