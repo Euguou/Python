@@ -1,0 +1,14 @@
+nun=input();
+ident=list(nun);
+id=[1,0,'X',9,8,7,6,5,4,3,2];
+for i in range(0,len(ident)):
+    ident[i]=int(ident[i])
+if(ident[6]>0):
+    ident.insert(6,1);ident.insert(7,9);
+else:
+    ident.insert(6,2);ident.insert(7,0);
+summ=ident[0]*7+ident[1]*9+ident[2]*10+ident[3]*5+ident[4]*8+ident[5]*4+ident[6]*2+ident[7]+ident[8]*6+ident[9]*3+ident[10]*7+ident[11]*9+ident[12]*10+ident[13]*5+ident[14]*8+ident[15]*4+ident[16]*2;
+a=int(summ)%11
+ident.insert(17,id[a]);
+li = ''.join(map(str, ident))
+print(li);
