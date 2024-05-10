@@ -1,0 +1,6 @@
+s=str(input());
+n=eval(input());
+li=['2','3','0','1','5'];
+li.append(s);
+li.insert(n,s);
+print(li)
