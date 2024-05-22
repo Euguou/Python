@@ -1,0 +1,8 @@
+m=int(input());
+n=int(input());
+def num(m,n):
+    summ=0;
+    for i in range (m,n+1):
+        if(i%5==0 and i%7==0):summ+=1;
+    return summ;
+print ('个数是{}'.format(num(m,n)));
