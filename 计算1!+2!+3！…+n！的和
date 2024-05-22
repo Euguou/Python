@@ -1,0 +1,11 @@
+def fact(n):
+    if n==0:
+        return 1
+    return n*fact(n-1)
+    
+N=int(input())
+sum=0
+for u in range(1,N+1):
+    t=fact(u)
+    sum=sum+t
+print(sum)
