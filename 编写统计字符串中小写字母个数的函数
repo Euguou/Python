@@ -1,0 +1,12 @@
+import string
+def ge(n):
+    sum=0
+    for i in n:
+        if i in string.ascii_lowercase:
+            sum+=1
+        else:
+            sum+=0
+    return f'小写字母有{sum}个'
+    
+a=input()
+print(ge(a))
