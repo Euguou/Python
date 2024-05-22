@@ -1,0 +1,9 @@
+n=int(input())
+
+def ounum(n):
+    if(n%3!=0):return 1;
+    return 0;
+if(n>0):
+    if(ounum(n)):print('no');
+    else :print('yes');
+else :print ('输入数据错误');
