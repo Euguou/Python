@@ -1,0 +1,7 @@
+m,n=map(int,input().split(','));
+def num(m,n):
+    summ=0;
+    for i in range (m,n+1):
+        if(i%5==0 and i%7==0):summ+=i;
+    return summ;
+print ('和是{}'.format(num(m,n)));
