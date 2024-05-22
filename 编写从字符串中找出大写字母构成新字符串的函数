@@ -1,0 +1,11 @@
+import string
+def ge(n):
+    a=[]
+    for i in n:
+        if i in string.ascii_uppercase:
+            a.append(i)
+            b=''.join(a)
+    return b
+        
+n=input()
+print(ge(n))
