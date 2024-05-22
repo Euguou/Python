@@ -1,0 +1,10 @@
+import string
+def has_digit(s):
+    for char in s:
+        if char in string.digits:
+            return "yes"
+    return "no"
+        
+input_str=input()
+print(has_digit(input_str))
+    
