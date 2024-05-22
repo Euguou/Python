@@ -1,0 +1,8 @@
+def mi(m,n):
+    a=1
+    for i in range(n):
+        a=a*m
+    return a
+    
+m,n=eval(input())
+print(mi(m,n))
