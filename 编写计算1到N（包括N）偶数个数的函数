@@ -1,0 +1,8 @@
+n=int(input());
+def num(n):
+    summ=0;
+    for i in range (1,n+1):
+        if(i%2==0):summ+=1;
+    return summ;
+print ('个数是{}'.format(num(n)));
+    
