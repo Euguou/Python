@@ -1,0 +1,10 @@
+n=int(input());
+if(n==10):
+    print('1');
+else:
+    t=10-n;
+    ans=1;
+    for i in range (0,t):
+       ans=(ans+1)*2;
+    print(ans);
+    
