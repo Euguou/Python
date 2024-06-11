@@ -1,0 +1,9 @@
+n=int(input());
+def recursion(n):
+    return n-1;
+ans=n;
+
+while n>1:
+    ans*=recursion(n);
+    n-=1;
+print(ans);
